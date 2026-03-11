@@ -5,7 +5,7 @@ const Footer = () => {
   const stack = ["Next.js", "React", "TypeScript", "Tailwind CSS"];
 
   return (
-    <footer className="min-h-screen lg:h-screen bg-[#FFF8F6] text-[#171717] py-16 md:py-24 px-8 md:px-14 lg:px-20 flex flex-col md:flex-row justify-between items-center lg:items-end gap-12 relative border-t border-primary/10">
+    <footer className="h-auto min-h-unset md:min-h-screen md:h-screen bg-[#FFF8F6] text-[#171717] py-16 md:py-24 px-8 md:px-14 lg:px-20 flex flex-col md:flex-row justify-between items-center lg:items-end gap-12 relative border-t border-primary/10">
 
       <div className="flex flex-col gap-6 w-full lg:w-1/3 z-10">
         <h2 className="text-[3rem] md:text-[4rem] lg:text-[5rem] font-beni-black leading-[0.8] uppercase text-primary">

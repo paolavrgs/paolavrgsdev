@@ -13,7 +13,7 @@ const tags = [
 
 const About = () => {
   return (
-    <div className="p-8 md:p-14 lg:p-20 min-h-screen lg:h-screen flex flex-col justify-between">
+    <div className="py-16 md:py-24 px-8 md:px-14 lg:px-20 h-auto min-h-unset md:min-h-screen md:h-screen flex flex-col justify-between">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 items-center">
         <div className="flex flex-col gap-4 w-full lg:w-1/3 text-center lg:text-left">
           <h1 className="text-[2.5rem] md:text-[3.5rem] lg:text-[3rem] font-roboto-mono text-primary leading-none">
@@ -25,7 +25,7 @@ const About = () => {
             ))}
           </div>
         </div>
-        <div className="w-full lg:w-1/3 flex justify-center items-start">
+        <div className="w-full lg:w-1/3 justify-center items-start hidden lg:flex">
           <Image src="/draw_order.svg" alt="Portrait" width={300} height={300} className="rounded-xl max-w-[200px] md:max-w-[250px] lg:max-w-[300px] max-h-[500px] h-auto" />
         </div>
         <div className="w-full lg:w-1/3 font-roboto-mono text-center lg:text-left text-sm md:text-base">

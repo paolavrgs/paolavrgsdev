@@ -7,7 +7,7 @@ const SocialButtons = () => {
         href="https://linkedin.com/in/paolavrgs"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-16 h-16 rounded-full bg-secondary flex items-center justify-center hover:opacity-80 transition-opacity"
+        className="hover:scale-110 hover:-translate-y-1 transition-all w-16 h-16 rounded-full bg-secondary flex items-center justify-center hover:opacity-80 transition-opacity"
         aria-label="LinkedIn"
       >
         <svg
@@ -25,7 +25,7 @@ const SocialButtons = () => {
         href="https://github.com/paolavrgs"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-16 h-16 rounded-full bg-secondary flex items-center justify-center hover:opacity-80 transition-opacity"
+        className="hover:scale-110 hover:-translate-y-1 transition-all w-16 h-16 rounded-full bg-secondary flex items-center justify-center hover:opacity-80 transition-opacity"
         aria-label="GitHub"
       >
         <svg
